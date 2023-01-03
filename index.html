@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Profit-Loss</title>
+  </head>
+  <body>
+    <h1 class="main-head">Stonking</h1>
+    <div class="main-sec">
+      <div class="left">
+        <h2>Make out your Profit right here!</h2>
+        <div class="flex-column">
+          <label for="inp-buying">Buying Price</label>
+          <input type="number" name="inp-buying" id="inp-buying" />
+        </div>
+        <div class="flex-column">
+          <label for="inp-number">Number of Stonks</label>
+          <input type="number" name="inp-number" id="inp-number" />
+        </div>
+        <div class="flex-column">
+          <label for="inp-current">Current Price</label>
+          <input type="number" name="inp-current" id="inp-current" />
+        </div>
+        <button type="submit">Calculate</button>
+      </div>
+      <div class="right">
+        <div class="contain-right">
+          <h2>Result</h2>
+          <div class="result">
+            <h4 class="output">The result will appear here!</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
